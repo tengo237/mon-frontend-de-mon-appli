@@ -138,7 +138,7 @@ export default function EmployeeOverview() {
   const nextMeeting = mockMeetings.find(meeting => new Date(meeting.dateHeure) > new Date())
 
   return (
-    <div className="space-y-6  h-[600px] mb-0 ml-0 ">
+    <div className="space-y-6  h-screen mb-0 ml-0 ">
       {/* Welcome Header */}
       <div className="bg-gradient-to-r from-green-500 to-blue-600 rounded-lg p-6 text-white">
         <h1 className="text-3xl font-bold mb-2">

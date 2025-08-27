@@ -53,7 +53,7 @@ export default function AdminOverview() {
   const employeeActiveRate = Math.round((statsData.activeEmployees / statsData.totalEmployees) * 100)
 
   return (
-    <div className="space-y-6 h-[600px] mb-0 ml-0 ">
+    <div className="space-y-6 h-screen mb-0 ml-0 ">
       {/* Header */}
       <div>
         <h1 className="text-3xl font-bold text-gray-900">Tableau de bord</h1>
